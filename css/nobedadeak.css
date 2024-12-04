@@ -1,0 +1,81 @@
+            * {margin: 0; padding: 0;} 
+
+			body {
+                border: 1px dashed black;
+				max-width: 762px;
+				margin: auto;
+                
+                /*background-image: url('img/padre.jpg');
+                background-size: auto;*/
+            }
+            header {
+                border: 1px dashed black;
+                margin: 1.968503937007874%;
+                padding: 1.968503937007874%;
+				width: 91.86351706036745%;
+                
+            }
+            footer{
+                border: 1px dashed black;
+                margin: 1.968503937007874%;
+                padding: 1.968503937007874%;
+				clear: both;
+				width: 91.86351706036745%;
+                
+            }
+            main {
+                border: 1px dashed rgb(0, 0, 0);
+                margin: 1.968503937007874% 1.968503937007874% 1.968503937007874% 1.968503937007874%;
+                padding: 1.968503937007874%;					
+				
+				
+				               
+            }
+
+
+
+
+			main section{
+                
+				                             			
+				display: flex;
+				flex-wrap: wrap;
+				gap: 25px;
+
+
+				div{
+					border: 1px dashed rgb(0, 0, 0);
+				}
+			
+
+
+			}
+
+            nav{
+                border: 1px dashed rgb(0, 0, 0);
+                margin-left: 1.968503937007874%;
+                padding: 1.968503937007874%;				
+				width: 91.86351706036745%;			
+				li{ 
+					border: 1px dashed rgb(0, 0, 0);
+					display: inline;
+					margin-left: 0.6561679790026247%;
+				}
+				
+               
+            }	
+					
+			
+			
+                           
+			
+            
+			h1{
+					border: 1px dashed black;
+					display: inline-block;
+					position: absolute;
+					margin-top: 35px;
+					margin-left: 20px;
+			}
+           	
+    
