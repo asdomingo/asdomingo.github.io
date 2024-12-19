@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 
+img {}
 
 header {
     text-align: center;
@@ -31,6 +32,7 @@ h2 {
     margin-bottom: 10px;
     margin-left: 65px;
 }
+
 h3 {
     font-size: 1.8em;
     color: rgb(107, 107, 107);
@@ -44,7 +46,8 @@ p {
     margin-left: 108px;
     margin-right: 120px;
 }
-li{
+
+li {
     margin-left: 90px;
     margin-right: 100px
 }
@@ -53,13 +56,11 @@ footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    background-color: rgb(139, 139, 139);    
+    background-color: rgb(139, 139, 139);
     color: rgb(73, 70, 70);
     clear: both;
     width: 1005px;
     margin-left: 108px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 15px;
-  }
-
-
+}
