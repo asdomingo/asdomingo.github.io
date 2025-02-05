@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/Background-modified\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  background-color: #5a5858;
+}
+
+
+
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  padding: 4px 6px; 
+}
+
+.menu ul li a:hover {
+  color: #f05454;
+  padding-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-3, .col-s-3 {
+    width: 100%;
+  }
+
+  .menu {
+    margin: 10px 0;
+  }
+
+  .menu ul li a {
+    font-size: 16px;
+    padding: 3px 5px; 
+  }
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #252525;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  background-color: #3e3e3e;
+  color: #ffffff;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  outline: none;
+  border: 2px solid #f05454;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input, textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  body img {
+    margin-top: 30px;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input, textarea {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  body img {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}

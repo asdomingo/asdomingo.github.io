@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Bancarios</title>
+    <link rel="stylesheet" href="/css/datosmetododepago.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo-container">
+            <img src="../img/Logoa.png" alt="K.O Boxing">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+                          <li><a href="http://127.0.0.1:3000/index.html">Inicio</a></li>
+                          <li><a href="catalogo.html">Catalogo</a></li>
+                          <li><a href="/html/contacto.html">Contacto</a></li>
+                          <li><a href="http://127.0.0.1:3000/html/carrito.html">Carrito</a></li>
+          </ul>
+        </div>
+
+    <div class="form-container">
+        <div class="header">
+            <h1>Ingrese sus Datos Bancarios</h1>
+        </div>
+
+        
+        <form class="payment-form" action="/html/pedidofinalizado.html" method="POST">
+            <div class="form-group">
+                <label for="card-holder">Titular de la Tarjeta:</label>
+                <input type="text" id="card-holder" name="card-holder" placeholder="Nombre del titular" required>
+            </div>
+
+            <div class="form-group">
+                <label for="card-number">Número de la Tarjeta:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+            </div>
+
+            <div class="form-group">
+                <label for="expiry-date">Fecha de Expiración:</label>
+                <input type="month" id="expiry-date" name="expiry-date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="card-type">Tipo de Tarjeta:</label>
+                <select id="card-type" name="card-type" required>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="amex">American Express</option>
+                    <option value="discover">Discover</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="password" id="cvv" name="cvv" placeholder="Código de seguridad" required>
+            </div>
+
+            
+            <button type="submit" class="submit-btn">Finalizar Pedido</button>
+        </form>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2025 K.O. Boxing. Todos los derechos reservados.</p>
+        <p>Visita nuestra <a href="/html/privacidad.html">política de privacidad</a> y <a href="/html/terminos.html">términos de uso</a>.</p>
+    </footer>
+
+</body>
+</html>

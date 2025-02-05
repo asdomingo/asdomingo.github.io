@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #dddada;
@@ -60,3 +61,144 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ddd;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url('/img/Background-modified\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  padding: 4px 6px;
+}
+
+.menu ul li a:hover {
+  color: #f05454;
+  padding-left: 6px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #252424;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+  margin-top: 50px; /* Ajusta el valor para mover el logo más abajo */
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  margin-bottom: 20px;
+  background-color: #696969;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: #ffffff;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1em;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #3d3a3a;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  width: 100%; 
+  max-width: 1000px; 
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 254, 254, 0.5);
+}
+
+footer p {
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+  background-color: #333;
+}
+
+a {
+  color: #f05454;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+>>>>>>> 96dc193 (Erronka bukatu)
