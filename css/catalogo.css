@@ -5,14 +5,6 @@ body {
     line-height: 1.6;
     max-width: 1200px;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding: 20px;
-    
-}
-
-
-header {
-=======
     padding: 10px; /* Reducido el padding */
     background-image: url(/img/Background-modified\ \(1\).jpg);
     background-repeat: no-repeat;
@@ -22,7 +14,6 @@ header {
 
 header {
     margin-top: 20px; 
->>>>>>> 96dc193 (Erronka bukatu)
     text-align: center;
     margin-bottom: 50px;
 }
@@ -30,17 +21,6 @@ header {
 header .menu a img {
     height: 100px;
 }
-<<<<<<< HEAD
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    text-align: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
-    
-=======
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,7 +32,6 @@ h1 {
 
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
->>>>>>> 96dc193 (Erronka bukatu)
 }
 
 header nav ul {
@@ -68,27 +47,11 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-<<<<<<< HEAD
-    color: #1d1c1c;
-=======
     color: #ffffff;
->>>>>>> 96dc193 (Erronka bukatu)
     font-weight: bold;
 }
 
 header nav ul li a:hover {
-<<<<<<< HEAD
-    color: #999;
-}
-
-header .header-txt {
-    margin-top: 100px;
-}
-
-/* Estilo del contenedor de video */
-
-
-=======
     color: #ffffff;
 }
 
@@ -96,15 +59,10 @@ header .header-txt {
     margin-top: 50px; 
 }
 
->>>>>>> 96dc193 (Erronka bukatu)
 main {
     margin-bottom: 50px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 .Guantes {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -156,10 +114,6 @@ main {
     background-color: #333;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 .material {
     margin-top: 50px;
 }
@@ -214,23 +168,6 @@ main {
 .material .material-txt a:hover {
     background-color: #333;
 }
-<<<<<<< HEAD
-#material-2{
-	img{
-		margin-top: 50px;
-	}
-}
-
-#material-3{
-	img{
-		margin-top: 140px;
-        }
-    }
-
-#material-txt-1{
-	margin-top: 90px;
-	}
-=======
 
 #material-2 img {
     margin-top: 50px; 
@@ -248,7 +185,6 @@ main {
 #material-txt-1 {
     margin-top: 60px; 
 }
->>>>>>> 96dc193 (Erronka bukatu)
 
 footer {
     background-color: #020101;  
@@ -261,19 +197,11 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 footer p {
     margin: 10px 0;
     font-size: 0.9em;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 footer a {
     color: #aaa;  
     text-decoration: none;
@@ -281,35 +209,19 @@ footer a {
     transition: color 0.3s ease;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 footer a:hover {
     color: #fff;  
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 footer p:first-of-type {
     font-size: 1em;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 footer p:last-of-type {
     font-size: 0.9em;
     margin-top: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 96dc193 (Erronka bukatu)
 .menu-container {
     position: relative;
 }
@@ -358,30 +270,18 @@ footer p:last-of-type {
 }
 
 .navbar li {
-<<<<<<< HEAD
-    border-bottom: 1px solid #444;
-=======
     border-bottom: 1px solid #f34040;
->>>>>>> 96dc193 (Erronka bukatu)
 }
 
 .navbar a {
     display: block;
     padding: 15px;
-<<<<<<< HEAD
-    color: #fff;
-=======
     color: #ffffff;
->>>>>>> 96dc193 (Erronka bukatu)
     text-decoration: none;
 }
 
 .navbar a:hover {
-<<<<<<< HEAD
-    background-color: #444;
-=======
     background-color: #000000;
->>>>>>> 96dc193 (Erronka bukatu)
 }
 
 #menu:checked ~ .navbar {
@@ -401,10 +301,6 @@ footer p:last-of-type {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
-    
-=======
->>>>>>> 96dc193 (Erronka bukatu)
     .Guantes {
         grid-template-columns: 1fr 1fr; 
     }
@@ -416,8 +312,4 @@ footer p:last-of-type {
     .Guantes-item, .material .material-item {
         width: 100%; 
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 96dc193 (Erronka bukatu)
