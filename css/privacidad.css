@@ -21,6 +21,38 @@ header {
   margin-top: 30px;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  padding: 4px 6px;
+}
+
+.menu ul li a:hover {
+  color: #f05454;
+  padding-left: 6px;
+}
+
 .logo-container img {
   max-width: 100%;
   height: auto;
